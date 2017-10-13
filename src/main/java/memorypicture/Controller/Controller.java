@@ -19,4 +19,6 @@ public class Controller {
     public String say(){
         return user.getName()+":"+user.getAge();
     }
+    public String sayhi(){return "h1";}
+    public String sayhello(){return "hello";}
 }
